@@ -8,8 +8,10 @@ require_once 'Motorway.php';
 require_once 'PedestrianWay.php';
 require_once 'ResidentialWay.php';
 require_once 'HighWay.php';
+require_once 'Speedometer.php';
 
 
+echo Speedometer::convertKmToMiles(10);
 
 ?>
     <br>
